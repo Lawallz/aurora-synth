@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Geist:wght@400;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Geist", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Scrollbar styling for list elements */
+.custom-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: #131313;
+  border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #353534;
+  border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555554;
+}
+
+/* Custom inputs for audio sliders range */
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  background: #0e0e0e;
+  border: 1px solid #201f1f;
+  border-radius: 2px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  border-radius: 2px;
+  background: #00f2ff;
+  border: 1px solid #1c1b1b;
+  box-shadow: 0 0 6px #00f2ff;
+  cursor: pointer;
+  margin-top: -5px;
+}
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 4px;
+  background: #0e0e0e;
+  border-radius: 2px;
+}
+input[type="range"]::-moz-range-thumb {
+  height: 14px;
+  width: 14px;
+  border-radius: 2px;
+  background: #00f2ff;
+  border: 1px solid #1c1b1b;
+  box-shadow: 0 0 6px #00f2ff;
+  cursor: pointer;
+}

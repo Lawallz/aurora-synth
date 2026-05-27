@@ -1,0 +1,6 @@
+{
+  "name": "AURORA",
+  "description": "Motor de sintetizador virtual profissional com osciladores, filtros ADSR, rack de efeitos de sinal, explorador de presets, configurações globais e um teclado de piano interativo simulado totalmente responsivo, construído utilizando a Web Audio API nativa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
